@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title></title>
+  </head>
+
+  <body>
+    <!--Шапка веб сторінки-->
+    <header></header>
+
+    <main>
+      <!--Collection-->
+      <section class="collection">
+        <div class="container">
+          <h2 class="collection-title">Our Collection</h2>
+
+          <ul class="collection-list">
+            <li class="collection-item">
+              <div class="collection-picture">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/august-desk-1x.jpg 1x,
+                      ./images/august-desk-2x.jpg 2x
+                    "
+                    media="(min-width: 1280px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/august-tab-1x.jpg 1x,
+                      ./images/august-tab-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/august-mob-1x.jpg 1x,
+                      ./images/august-mob-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/august-desk-1x.jpg"
+                    alt="August"
+                    width="347"
+                    height="430"
+                    class="collection-img august-img"
+                  />
+                </picture>
+
+                <!-- <p class="collection-item-text">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p> -->
+              </div>
+              <div class="container-collection">
+                <h3 class="collection-subtitle">
+                  AUGUST Poltava women's blouseRING
+                </h3>
+                <span class="collection-item-price">3300 UAH</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
